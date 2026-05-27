@@ -1,11 +1,9 @@
-/* Базове скидання */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-/* ДЕННА ТЕМА (за замовчуванням) */
 body {
     background-color: #e0e0e0;
     font-family: 'Montserrat', sans-serif;
@@ -21,23 +19,21 @@ body {
     min-height: 297mm;
     margin: 0 auto;
     padding: 60px 80px;
-    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 30px rgba(91, 138, 91, 0.25);
     transition: background-color 0.3s, box-shadow 0.3s;
 }
-
 .header {
     text-align: center;
     margin-bottom: 50px;
 }
 
 .name {
-    color: #5b8a5b;
-    font-size: 32px;
-    font-weight: 300;
-    letter-spacing: 5px;
+    color: #2e5a2e;
+    font-size: 34px;
+    font-weight: 400;
+    letter-spacing: 6px;
     margin-bottom: 10px;
 }
-
 .contact-info {
     font-size: 11px;
     color: #777;
@@ -104,7 +100,6 @@ p {
     margin-bottom: 4px;
 }
 
-/* Стилі для контейнера кнопки */
 .theme-toggle-container {
     text-align: right;
     width: 210mm;
@@ -129,7 +124,6 @@ p {
     color: #fff;
 }
 
-/* Динамічні картки коментарів */
 .comment-card {
     border: 1px dashed #5b8a5b;
     padding: 12px;
@@ -138,7 +132,6 @@ p {
     background-color: #fcfdfc;
 }
 
-/* Футер */
 .site-footer {
     width: 210mm;
     margin: 40px auto 0 auto;
@@ -154,7 +147,6 @@ p {
     color: #666;
 }
 
-/* Модальне вікно */
 .modal-overlay {
     display: none;
     position: fixed;
@@ -197,10 +189,6 @@ p {
 .btn-submit { width: 100%; padding: 10px; background-color: #5b8a5b; color: white; border: none; cursor: pointer; font-weight: bold; font-family: 'Montserrat', sans-serif; }
 .btn-submit:hover { background-color: #4a724a; }
 
-
-/* ==========================================
-   НІЧНА ТЕМА (Клас .dark-theme)
-   ========================================== */
 body.dark-theme {
     background-color: #121212;
     color: #e0e0e0;
@@ -234,7 +222,6 @@ body.dark-theme .comment-card {
     border-color: #8ebd8e;
 }
 
-/* Друк */
 @media print {
     body { background: none; padding: 0; color: #000; }
     .resume-container { box-shadow: none; margin: 0; width: 100%; }
